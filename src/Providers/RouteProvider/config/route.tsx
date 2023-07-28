@@ -3,14 +3,14 @@ import App from "../../../App.tsx";
 import LayoutMain from "../../../layout/Layout.tsx";
 
 export const route = createBrowserRouter([{
-    path: '/',
+    path: '',
     element:
         <>
         <LayoutMain />
 
     </>,
     children: [{
-      path: '*' ,
+      path: '/' ,
       element:   <App />,
     }
     ]
